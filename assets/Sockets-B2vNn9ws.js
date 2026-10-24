@@ -1,4 +1,4 @@
-import{j as e}from"./index-B7YPhsHL.js";const a=String.raw`static int send_all(int fd, const char *data, size_t length) {
+import{j as e}from"./index-BhqEPHJP.js";const a=String.raw`static int send_all(int fd, const char *data, size_t length) {
     size_t sent = 0;
     while (sent < length) {
         ssize_t n = send(fd, data + sent, length - sent, 0);
